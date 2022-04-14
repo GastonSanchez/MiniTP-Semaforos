@@ -1,5 +1,5 @@
-# SOR-Semáforos-1S-2021
-## Trabajo Práctico Semáforos primer semestre año 2021
+# Sistemas Operativos y Redes
+## Trabajo Práctico Semáforos primer semestre año 2022
 En este trabajo se busco representar una competencia entre 4 equipos llamada *Subway Argento*, la cual tiene como dificultad que varios elementos de la competencia deben ser compartidos por los equipos por los que deben turnarse para utilizarlos.
 
 Al ejecutar el programa se indica el inicio de los equipos y luego la actividad que estan realizando con sus respectivos ingredientes, las tareas tienen diferentes tiempos de duración para facilitar la comprención de lo que esta ocurriendo en cada momento de la ejecución y al finalizar se da a conocer en que orden los equipos finalizaron la preparación.
@@ -7,8 +7,8 @@ Al ejecutar el programa se indica el inicio de los equipos y luego la actividad 
 ### Dificultades
 - El manejo de los semaforos requirio una busqueda extensa de informacion sobre el tema para utilizarlos junto con Threads.
 - La sincronizacion dentro del equipo para no realizar tareas que primero requieran la finalizacion de una tarea previa.
-- La división entre los semaforos internos del equipo y los que se encargan de la utilización de las herramientas comunes entre los equipos fue complicada.
-- Poder enviar a una funcion mas de un parametro por medio de un Thread requirio varias modificaciones del codigo hasta dar con la solución.
+- La división entre los semaforos internos del equipo y los semaforos que se encargan de la utilización de las herramientas comunes entre los equipos requirio una organización precisa para no mezclar la ejecución de las tareas.
+- Poder enviar a una funcion más de un parametro por medio de un Thread requirio varias modificaciones del codigo hasta dar con la solución.
 
 ### Pseudocodigo
 ```
@@ -71,4 +71,4 @@ void receta(hilos){
 
 
 }
-    ```
+```
